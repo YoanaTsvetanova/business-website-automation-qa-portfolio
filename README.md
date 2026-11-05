@@ -20,6 +20,7 @@ The purpose of this project is to practice automated functional testing, navigat
 Website: https://bielektra.com/
 
 Pages covered:
+
 - Homepage
 - About Us
 - Services
@@ -28,16 +29,16 @@ Pages covered:
 
 ## Automated Test Coverage
 
-| Test File | Description |
-|---|---|
-| `homepage.spec.js` | Verifies that the homepage loads successfully |
-| `navigation.spec.js` | Verifies direct navigation to all five pages |
-| `menu-navigation.spec.js` | Verifies navigation menu links |
-| `about.spec.js` | Verifies the About Us page heading |
-| `services.spec.js` | Verifies the Services page heading |
-| `projects.spec.js` | Verifies the Projects page heading |
-| `contacts.spec.js` | Verifies the Contacts page heading |
-| `responsive.spec.js` | Checks for horizontal scrolling across five pages at three viewport sizes |
+| Test File                 | Description                                                               |
+| ------------------------- | ------------------------------------------------------------------------- |
+| `homepage.spec.js`        | Verifies that the homepage loads successfully                             |
+| `navigation.spec.js`      | Verifies direct navigation to all five pages                              |
+| `menu-navigation.spec.js` | Verifies navigation menu links                                            |
+| `about.spec.js`           | Verifies the About Us page heading                                        |
+| `services.spec.js`        | Verifies the Services page heading                                        |
+| `projects.spec.js`        | Verifies the Projects page heading                                        |
+| `contacts.spec.js`        | Verifies the Contacts page heading                                        |
+| `responsive.spec.js`      | Checks for horizontal scrolling across five pages at three viewport sizes |
 
 ## Cross-Browser Testing
 
@@ -51,11 +52,11 @@ Tests are executed using:
 
 The following viewport sizes are covered:
 
-| Device Category | Resolution |
-|---|---|
-| Desktop | 1920 × 1080 |
-| Tablet | 768 × 1024 |
-| Mobile | 375 × 812 |
+| Device Category | Resolution  |
+| --------------- | ----------- |
+| Desktop         | 1920 × 1080 |
+| Tablet          | 768 × 1024  |
+| Mobile          | 375 × 812   |
 
 ## Running the Tests
 
